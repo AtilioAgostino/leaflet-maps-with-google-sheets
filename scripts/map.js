@@ -901,7 +901,6 @@ $(window).on('load', function() {
    * Changes map attribution (author, GitHub repo, email etc.) in bottom-right
    */
  
-  /** ADA20231229
  function changeAttribution() {
     var attributionHTML = $('.leaflet-control-attribution')[0].innerHTML;
     var credit = 'View <a href="' + googleDocURL + '" target="_blank">data</a>';
@@ -922,7 +921,6 @@ $(window).on('load', function() {
     credit += ' with ';
     $('.leaflet-control-attribution')[0].innerHTML = credit + attributionHTML;
   }
-  */
 
   /**
    * Loads the basemap and adds it to the map
