@@ -921,7 +921,6 @@ $(window).on('load', function() {
     $('.leaflet-control-attribution')[0].innerHTML = credit + attributionHTML;
   }
 
-
   /**
    * Loads the basemap and adds it to the map
    */
