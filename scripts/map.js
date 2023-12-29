@@ -903,10 +903,10 @@ $(window).on('load', function() {
  
  function changeAttribution() {
     var attributionHTML = $('.leaflet-control-attribution')[0].innerHTML;
-   /** var credit = 'View <a href="' + googleDocURL + '" target="_blank">data</a>';*/
+    var credit = 'View <a href="' + googleDocURL + '" target="_blank">data</a>';
     var name = getSetting('_authorName');
     var url = getSetting('_authorURL');
-
+   /**
     if (name && url) {
       if (url.indexOf('@') > 0) { url = 'mailto:' + url; }
       credit += ' by <a href="' + url + '">' + name + '</a> | ';
@@ -915,7 +915,7 @@ $(window).on('load', function() {
     } else {
       credit += ' | ';
     }
-
+    */
     credit += 'View <a href="' + getSetting('_githubRepo') + '">code</a>';
     if (getSetting('_codeCredit')) credit += ' by ' + getSetting('_codeCredit');
     credit += ' with ';
