@@ -28,7 +28,7 @@ var constants = {
 	_mapSearchZoom: 'Search Results Zoom Level',
 	_mapZoom: 'Zoom Controls',
 	_mapMyLocation: 'Show My Location',
-	_mapAttribution: '',
+	_mapAttribution: 'Credits and Attribution',
 	// Point Map Display
 	_pointsLegendTitle: 'Point Legend Title',
 	_pointsLegendPos: 'Point Legend Position',
